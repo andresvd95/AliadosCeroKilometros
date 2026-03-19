@@ -1,0 +1,27 @@
+{
+    "name": "start-app-dir",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
+    },
+    "dependencies": {
+        "@emailjs/browser": "^4.4.1",
+        "@next/third-parties": "^16.1.4",
+        "next": "14.1.4",
+        "nodemailer": "^7.0.10",
+        "react": "18.2.0",
+        "react-countup": "^6.5.3",
+        "react-dom": "18.2.0",
+        "react-icons": "^5.5.0",
+        "react-scroll-trigger": "^0.6.14",
+        "react-type-animation": "^3.2.0",
+        "sass": "^1.72.0",
+        "swiper": "^11.2.10",
+        "wowjs": "^1.1.3"
+    }
+}
